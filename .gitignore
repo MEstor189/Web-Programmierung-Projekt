@@ -1,0 +1,39 @@
+# Dependencies & Build artifacts
+node_modules/
+dist/
+dist-ssr/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database & Runtime
+*.db
+*.mv.db
+*.lock.db
+*.sqlite3
+uploads/
+dev.mv.db
+dev.lock.db
+
+# Environment & Local configurations
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE & OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
